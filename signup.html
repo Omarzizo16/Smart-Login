@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <!--!=====> favicon -->
+    <link rel="icon" href="images/signup.png"/>
+    <!--! Font Awesome -->
+    <link rel="stylesheet" href="fontawesome 6/css/all.min.css">
+    <!-- !font google  Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+        <!-- ! sweet alert  -->
+        <link
+        href="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.5/dist/sweetalert2.min.css"
+        rel="stylesheet"
+      />
+    <!-- ! bootstrap files-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <!--! Main Style Sheet -->
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+    <main class="py-5 min-vh-100 d-flex justify-content-center align-items-center">
+      <div class="container d-flex justify-content-center align-items-center">
+        <div class="login-box d-flex justify-content-center align-items-center">
+          <form id="myForm">
+            <h2 class="text-center">Sign UP</h2>
+            <div class="input-box position-relative">
+                <span class="icon"><i class="fa-solid fa-user"></i></span>
+                <input
+                  type="text"
+                  id="nameInput"
+                  required
+                />
+                <label for="nameInput">User Name</label>
+              </div>
+            <div class="input-box position-relative">
+              <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+              <input
+                type="text"
+                id="emailInput"
+                required
+              />
+              <label for="emailInput">Email</label>
+            </div>
+            <div class="input-box position-relative">
+              <span class="icon"><i class="fa-solid fa-lock"></i></span>
+              <input
+                type="password"
+                id="passwordInput"
+                required
+              />
+              <label for="passwordInput">Password</label>
+            </div>
+            <button type="submit" id="signUpBtn">Sign UP</button>
+            <div class="register-link">
+              <p>
+                have an account? <a href="index.html"
+                > Log IN</a
+                >
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.5/dist/sweetalert2.all.min.js"></script>
+    <script src="js/signup.js"></script>
+  </body>
+</html>

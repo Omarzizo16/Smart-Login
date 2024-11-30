@@ -1,0 +1,30 @@
+*{
+    --color-white:#fff;
+}
+.login-box{
+    width: 500px !important;
+    height: 250px !important;
+}
+nav{
+    backdrop-filter: blur(.9375rem);
+}
+.navbar-brand{
+    color: var(--color-white);
+}
+.navbar-brand:focus,
+.navbar-brand:hover{
+    color:var(--color-white);
+}
+.navbar button{
+    width: fit-content;
+}
+.nav-link{
+    color:var(--color-white);
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color:var(--color-white);
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
